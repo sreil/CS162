@@ -1,10 +1,18 @@
 # depslib dependency file v1.0
-1427930959 source:e:\osu\cs-162\week1\lab1-2\lab1-2.cpp
+1427946158 source:e:\osu\cs-162\week1\lab1-2\lab1-2.cpp
 	<iostream>
+	"f.cpp"
+	"g.cpp"
+
+1427945987 e:\osu\cs-162\week1\lab1-2\f.h
+
+1427943886 e:\osu\cs-162\week1\lab1-2\g.h
+
+1427945769 e:\osu\cs-162\week1\lab1-2\f.cpp
 	"f.h"
+	<iostream>
+
+1427944026 e:\osu\cs-162\week1\lab1-2\g.cpp
 	"g.h"
-
-1427930715 e:\osu\cs-162\week1\lab1-2\f.h
-
-1427930710 e:\osu\cs-162\week1\lab1-2\g.h
+	<iostream>
 
