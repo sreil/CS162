@@ -1,0 +1,11 @@
+﻿Build started 5/6/2015 5:34:37 PM.
+     1>Project "E:\OSU\CS-162\Week6\Lab6\Lab6\Lab6.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\Visual Studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>e:\osu\cs-162\week6\lab6\lab6\main.cpp(68): fatal error C1075: end of file found before the left brace '{' at 'e:\osu\cs-162\week6\lab6\lab6\main.cpp(13)' was matched
+     1>Done Building Project "E:\OSU\CS-162\Week6\Lab6\Lab6\Lab6.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.53
