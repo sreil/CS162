@@ -6,12 +6,15 @@
 
 #include <iostream>
 #include <string>
+#include "find.h"
 
 using namespace std;
 
 int main()
 {
-	int choice = 0;
+	Find find;
+
+	int choice = 0, search = 0;
 
 	string inFileName = "";
 	string outFileName = "";
@@ -32,27 +35,28 @@ int main()
 		{
 		case 1:
 		{
-			while (inFileName == "")
-			{
 				cout << "Please type the filename that you would like to manipulate: ";
 				getline(cin, inFileName);
-			}
+				cout << "Please enter the value you wish to search for: " << endl;
+				cin >> outFileName;
+				ifstream ifs(inFileName.c_str(), ios::in);
+				find.targetSearch(ifs, search);
 		}
 		case 2:
 		{
-			while (inFileName == "")
-			{
-				cout << "Please type the filename that you would like to manipulate: ";
+				cout << "Please type the filename that you would like to sort: " << endl;
 				getline(cin, inFileName);
-			}
+				cout << "Please tell me what you would like the sorted file to be named " << endl;
+				getline(cin, outFileName);
 		}
 		case 3:
 		{
-			while (inFileName == "")
-			{
 				cout << "Please type the filename that you would like to manipulate: ";
 				getline(cin, inFileName);
-			}
+				cout << "Please enter the value you wish to search for: " << endl;
+				cin >> outFileName;
+				ifstream ifs(inFileName.c_str(), ios::in);
+				find.binary(ifs, search);
 		}
 		case 4:
 			cout << "Thank you, the program is now ending ";

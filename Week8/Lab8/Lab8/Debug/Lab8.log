@@ -1,0 +1,22 @@
+﻿Build started 5/24/2015 10:51:32 PM.
+     1>Project "E:\OSU\CS-162\Week8\Lab8\Lab8\Lab8.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\Visual Studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt firstOut.cpp lastOut.cpp main.cpp
+         lastOut.cpp
+         firstOut.cpp
+         Generating Code...
+     1>e:\osu\cs-162\week8\lab8\lab8\firstout.cpp(49): warning C4715: 'FO::getFront' : not all control paths return a value
+     1>e:\osu\cs-162\week8\lab8\lab8\lastout.cpp(69): warning C4715: 'LO::peek' : not all control paths return a value
+         Compiling...
+         main.cpp
+         Generating Code...
+       Link:
+         E:\Visual Studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\OSU\CS-162\Week8\Lab8\Debug\Lab8.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\OSU\CS-162\Week8\Lab8\Debug\Lab8.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\OSU\CS-162\Week8\Lab8\Debug\Lab8.lib" /MACHINE:X86 Debug\firstOut.obj
+         Debug\lastOut.obj
+         Debug\main.obj
+         Lab8.vcxproj -> E:\OSU\CS-162\Week8\Lab8\Debug\Lab8.exe
+     1>Done Building Project "E:\OSU\CS-162\Week8\Lab8\Lab8\Lab8.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.33
