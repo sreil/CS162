@@ -2,4 +2,4 @@
 
 @ OSU 
 
-Final Grade: 90.1%
+Final Grade: A
